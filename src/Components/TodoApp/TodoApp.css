@@ -1,0 +1,28 @@
+.div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.card {
+    -webkit-box-shadow: -4px 13px 20px 6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -4px 13px 20px 6px rgba(0, 0, 0, 0.75);
+    box-shadow: -4px 13px 20px 6px rgba(0, 0, 0, 0.75);
+    width:600px;
+}
+
+.cardHeader {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    background-color: black;
+    font-size: 25px;
+}
+
+@media screen and (max-width:768px){
+    .card{
+        width:400px;
+    }
+}

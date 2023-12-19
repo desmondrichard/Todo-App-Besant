@@ -1,0 +1,20 @@
+.div2{
+    display:flex;
+    background-color: aquamarine;
+    justify-content: space-around;
+    margin-bottom: 4px;
+}
+
+li{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+.btn-danger{
+    --bs-btn-bg: none;
+    --bs-btn-border-color: none;
+    --bs-btn-hover-bg:none;
+    --bs-btn-hover-color:none;
+    --bs-btn-active-bg:none;
+}
